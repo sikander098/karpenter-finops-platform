@@ -41,6 +41,22 @@ Karpenter detects AWS Spot Interruption Warnings and automatically cordons/drain
 Grafana visualizing provisioning time, spot usage %, and other metrics.  
 ![Grafana Dashboard](https://github.com/sikander098/karpenter-finops-platform/raw/main/screenshots/4-grafana-dashboard.png.PNG)
 
+### 5. KEDA Event-Driven Autoscaling
+Proof of KEDA scaling workloads based on external metrics/events.
+![KEDA Scaling](screenshots/keda-scalling.png)
+
+### 6. Cost Visibility (Kubecost)
+Comprehensive cost breakdown showing cluster efficiency and savings.
+![Kubecost Dashboard](screenshots/kube-cost.png)
+
+### 7. Cost Allocation Breakdown
+Granular view of cost allocation by namespace and workload.
+![Cost Allocations](screenshots/kube-cost-allocations.png)
+
+### 8. Detailed Cost Metrics
+In-depth analysis of compute, network, and storage costs.
+![Cost Metrics](screenshots/kube-cost-dashboard.png)
+
 ---
 
 ## 🛠 Tech Stack
